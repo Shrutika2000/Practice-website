@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fddc627bf6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img src="images/fa4dcd51-cac2-4fe3-9783-285b43ed914a.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About us</a>
+                    </li>
+                    <li>
+                        <a href="">Schools</a>
+                    </li>
+                    <li>
+                        <a href="">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function () {
+            nav.classList.toggle("active");
+        }
+    </script>
+    <div class="bg">
+        <div class="htext">
+            <div class="text">EMPOWERING OUR YOUTH GENERATION</div>
+            <div class="hbtn"><button class="btn">Learn More</button></div>
+        </div>
+    </div>
+    <div class="content3">
+        <div class="outcontent">
+            <div class="in1">
+                <div class="inimg"><img src="images/imgpsh_fullsize_anim.png.webp" class="responsive"></div>
+            </div>
+            <div class="in2">
+                <div class="intext">
+                    <h1 class="intexth1">The home of <span style="background-color: #fcf84f;">help</span> for teenagers,
+                        parents and <span style="background-color: #fcf84f;">educators</span>.</h1>
+                    <p id="intextp">Unstoppable Teen was founded in 1997 by Kevin Mincher with the aim of helping
+                        1,000,000 young people experience a better quality of life. We are a symbol of hope and
+                        possibility for young people all over the world.</p>
+                    <button class="inbtn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content4">
+        <div class="outcontent4">
+            <div class="incont1">
+                <div class="incont1text">
+                    <p class="incont1extp">What would you <span style="background-color: #fcf84f;">like</span> us to
+                        <span style="background-color: #fcf84f;">help</span> you with?</p>
+                </div>
+            </div>
+            <div class="incont2">
+                <div class="smile">
+                    <div class="outsmile">
+                        <div class="insmile1"><img src="images/smily.png.webp" alt="" class="smimg"></div>
+                        <div class="insmile2">Brilliant teen mental health</div>
+                    </div>
+                </div>
+                <div class="smile">
+                    <div class="outsmile">
+                        <div class="insmile1"><img src="images/dollar.png.webp" alt="" class="smimg"></div>
+                        <div class="insmile2">Great careers & gow to make money as a teen</div>
+                    </div>
+                </div>
+                <div class="smile">
+                    <div class="outsmile">
+                        <div class="insmile1"><img src="images/aplus.png.webp" alt="" class="smimg"></div>
+                        <div class="insmile2">Outstanding high school grades</div>
+                    </div>
+                </div>
+                <div class="smile">
+                    <div class="outsmile">
+                        <div class="insmile1"><img src="images/people.png.webp" alt="" class="smimg"></div>
+                        <div class="insmile2">Relationship & top youth leadership</div>
+                    </div>
+                </div>
+                <div class="smile">
+                    <div class="outsmile">
+                        <div class="insmile1"><img src="images/walk-1.png.webp" alt="" class="smimg"></div>
+                        <div class="insmile2">Superb teen health & fitness</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content5">
+        <div class="content5">
+            <div type="submit" class="video-container" onclick="play()">
+                <button type="button" class="btn1" onclick="play()"><i
+                        class="fa-sharp fa-regular fa-circle-play"></i></button>
+                <video src="images/video.mp4"></video>
+            </div>
+
+            <div class="popup-video">
+                <span class="close" onclick="remove()">&times;</span>
+                <video src="images/video.mp4" autoplay controls></video>
+            </div>
+            <script>
+                /*document.getElementsByClassName(".btn").addEventListener("click", function () {
+                    document.getElementsByClassName(".popup-video").style.visibility="visible";
+                }, false);*/
+                function play() {
+                    document.querySelector(".popup-video").style.visibility = "visible";
+                }
+                function remove() {
+                    document.querySelector(".popup-video").style.visibility = "hidden";
+                }
+            </script>
+        </div>
+    </div>
+
+    <div class="content6">
+        <div class="outcontent6">
+            <div class="cont6text">
+                <h1 class="intexth1">Latest <span style="background-color: #fcf84f;">podcasts</span></h1>
+            </div>
+            <div class="cards">
+                <div class="cardflex">
+                    <div class="cardimg"><img src="images/episode-45-thumb.jpg.webp" alt="" class="responsive"></div>
+                    <div class="cardtext">
+                        <p class="cardtextp">3 essential elements of teen health</p>
+                        <p class="cardtextd">June 5, 2017</p>
+                    </div>
+                </div>
+                <div class="cardflex">
+                    <div class="cardimg"><img src="images/episode-44-thumb.jpg.webp" alt="" class="responsive"></div>
+                    <div class="cardtext">
+                        <p class="cardtextp">Communication skills and careers advice from Solopreneur Hour host Michael
+                            O'Neal</p>
+                        <p class="cardtextd">May 29, 2017</p>
+                    </div>
+                </div>
+                <div class="cardflex">
+                    <div class="cardimg"><img src="images/episode-43-thumb.jpg.webp" alt="" class="responsive"></div>
+                    <div class="cardtext">
+                        <p class="cardtextp">Top 10 employability skills for young people</p>
+                        <p class="cardtextd">May 22, 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cardbtn">
+            <button class="inbtn1">Learn More</button>
+        </div>
+    </div>
+
+    <div class="content7">
+        <div class="outcontent7">
+            <div class="in1">
+                <div class="inimg2"><img src="images/imgpsh_fullsize_anim-1.png.webp" class="responsive"></div>
+            </div>
+            <div class="in2">
+                <div class="intext1">
+                    <h1 class="intexth12">Stream through your <span style="background-color: #fcf84f;">phone</span></h1>
+                    <p id="intextp1">The podcast for teenagers, parents and teachers with KEVIN MINCHER. Listen to us
+                        anywhere you want.Subscribe to The Unstoppable Teen Podcast</p>
+                    <button class="inbtn7_1"></button>
+                    <button class="inbtn7_2"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content8">
+        <div class="context8">
+            <div class="texthead">What <span style="background-color: #fcf84f;">they</span> say <span
+                    style="background-color: #fcf84f;">about</span> <span style="background-color: #fcf84f;">our</span>
+                podcast</div>
+            <div class="con8btn"><button class="btn8">Learn More</button></div>
+        </div>
+        <div class="comments">
+            <div class="incomm">
+                <div class="incomm1">
+                    <div class="incomm1_1">“You’ve opened my eyes and my mind. I feel so inspired and it’s all because
+                        of you. I truly believe I can do anything I put my my mind to and I’ll face the obstacles head
+                        on. Thank you for motivating me and making me believe in myself.”</div>
+                    <div class="incomm1_2">
+                        <div class="ph8"><img src="images/Ellipse-2.png.webp" alt=""></div>
+                        <div class="phtext">
+                            <p style="font-weight: bold;">Madalitso</p>
+                            <p>Aged 17</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="incomm1">
+                    <div class="incomm1_1">“Unstoppable Teen has really opened doors for me in my life. The learning
+                        techniques and stories are truly amazing.”</div>
+                    <div class="incomm1_2">
+                        <div class="ph8"><img src="images/aidan.png.webp" alt=""></div>
+                        <div class="phtext">
+                            <p style="font-weight: bold;">Aidan</p>
+                            <p>Aged 14</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="incomm1">
+                    <div class="incomm1_1">“I have been following your Unstoppable Teen for years and you truly did
+                        inspire me to do something great. You honestly made me who I am today.
+                        Thank you for being my inspiration.”</div>
+                    <div class="incomm1_2">
+                        <div class="ph8"><img src="images/racheal.png.webp" alt=""></div>
+                        <div class="phtext">
+                            <p style="font-weight: bold;">Rachael</p>
+                            <p>Aged 19</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content9">
+        <div class="outcon9">
+            <div class="incon9">
+                <div class="incon_head">Have a question? <span style="background-color: #fcf84f;">we’re here to help
+                        you…</span>
+                    Ask us anything!</div>
+                <div class="incon_btn"><button class="incon_btn1">Call:+44 (0)1302 456 605</button><button
+                        class="incon_btn1">info@unstoppableteen.com</button></div>
+                <div class="incon_icon">
+                    <div class="incon_icon_1">
+                        <div class="icon_soc"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="icon_soc"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="icon_soc"><i class="fa-brands fa-youtube"></i></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="infooter">
+            <div class="infooter1">
+                <div class="infooter1_1">
+                    <h3>About us</h3>
+                    <p>Unstoppable Teen is the nation’s leading provider of inspiration and life <br> coaching for teenagers…</p>
+                    <p><a href="#" style="color: white;">Learn More</a></p>
+                    <div class="footer_icon_1">
+                        <div class="ft_icon_soc"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="ft_icon_soc"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="ft_icon_soc"><i class="fa-brands fa-youtube"></i></div>
+                    </div>
+                </div>
+                <div class="infooter1_2">
+                    <h3>Customer support</h3>
+                    <p>We’re here to help!</p>
+                    <p>Our team is available to assist you</p>
+                    <p>Monday – Friday, 9:00AM to 5:00PM</p>
+                </div>
+                <div class="infooter1_2">
+                    <h3>Quick Links</h3>
+                    <p>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Podcasts</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </p>
+                </div>
+            </div>
+            <div class="infooter2">
+                <div class="infooter2_2_1">
+                    Copyright © 2022 Unstoppable Inc Ltd. All rights reserved.
+                </div>
+                <div class="infooter2_2_2">
+                    Privacy Policy | Terms & conditions
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
